@@ -1,20 +1,20 @@
 import React from 'react'
 import './LearnCard.css'
-import learn_img from  '/joincardImg1.png'
-const LearnCard = () => {
+import learn_img from  '/learnImg1.png'
+const LearnCard = ({title, description,image}) => {
   return (
     <div className='learn-card-container'>
         <div className="learn-card-text">
             <h1 className="learn-card-title">
-            Data Analytic & <br />Visualisation
+            {title}
             </h1>
             <p className="learn-card-paragraph">
-                transform numbers into clear, <br /> impactful visuals using Excel, <br />PowerBI and Tableau.
+                {description}
             </p>
         </div>
-            <img className="learn-card-image" src={learn_img} alt="" />
-        {/* <div className="learn-card-image">
-        </div> */}
+        <div className="learn-card-image-div">
+            <img className="learn-card-image" src={image} alt="" />
+        </div>
     </div>
   )
 }
