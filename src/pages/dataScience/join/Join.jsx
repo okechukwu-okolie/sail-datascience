@@ -2,6 +2,10 @@ import React from 'react'
 import './Join.css'
 import JoinCard from '../../../component/joinCard/JoinCard'
 import image1 from '/joincardImg1.png'
+import image2 from '/joincardImg2.png'
+import image3 from '/joincardImg3.png'
+import image4 from '/joincardImg4.png'
+import image5 from '/joincardImg5.png'
 
 const Join = () => {
   return (
@@ -17,21 +21,21 @@ const Join = () => {
             title = 'Learn by doing'
             description = 'Work on hands-on projects with real data sets Work on hands-on projects with real data sets'/>
             <JoinCard 
-            image={image1}
-            title = 'Learn by doing'
-            description = 'Work on hands-on projects with real data sets Work on hands-on projects with real data sets'/>
+            image={image2}
+            title = 'Zero Experience? No Problem!'
+            description = 'This program is beginner-friendly'/>
             <JoinCard 
-            image={image1}
-            title = 'Learn by doing'
-            description = 'Work on hands-on projects with real data sets Work on hands-on projects with real data sets'/>
+            image={image3}
+            title = 'Top-Tier Mentors'
+            description = 'Get trained by data pros and AI experts'/>
             <JoinCard 
-            image={image1}
-            title = 'Learn by doing'
-            description = 'Work on hands-on projects with real data sets Work on hands-on projects with real data sets'/>
+            image={image4}
+            title = '100% Scholarship Availiable'
+            description = 'Limited slots, so apply ASAP!'/>
             <JoinCard 
-            image={image1}
-            title = 'Learn by doing'
-            description = 'Work on hands-on projects with real data sets Work on hands-on projects with real data sets'/>
+            image={image5}
+            title = 'Zero Experience? No Problem!'
+            description = 'This program is beginner-friendly'/>
         </div>
 
     </div>
