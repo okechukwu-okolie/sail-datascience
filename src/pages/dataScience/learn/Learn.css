@@ -21,8 +21,9 @@
 .learn-paragraph{
     letter-spacing: 1px;
     color: #696984;
+    padding: 0 240px;
     font-family: Sora;
-    font-style: 24px;
+    font-size: 24px;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -32,4 +33,42 @@
     flex-wrap: wrap;
     gap: 0px;
     
+}
+
+
+@media (max-width:838px) {
+.learn-container{
+    display: flex;
+    flex-direction: column;
+    height: 170vh;
+    padding: 0px 25px;
+}
+.learn-title{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.learn-paragraph{
+    padding: 0 70px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+}
+
+@media (max-width: 428px){
+.learn-container{
+    display: flex;
+    flex-direction: column;
+    height: 1400px;
+    padding: 0px 25px;
+}
+.learn-title{
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: -80px;
+}
+.learn-paragraph{
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
 }

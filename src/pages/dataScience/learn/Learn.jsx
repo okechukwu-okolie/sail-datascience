@@ -13,7 +13,7 @@ const Learn = () => {
     <div className='learn-container'>
         <div className="learn-text">
             <h1 className="learn-title">What You'll Learn</h1>
-            <p className="learn-paragraph">Master the essential tools, techniques and mindset to turn raw <br /> data into powerful insights and career-ready projects</p>
+            <p className="learn-paragraph">Master the essential tools, techniques and mindset to turn raw  data into powerful insights and career-ready projects</p>
         </div>
         <div className="learn-cards">
             <LearnCard title = 'Data Analytics & Visualization'
