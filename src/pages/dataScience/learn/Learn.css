@@ -3,6 +3,7 @@
     flex-direction: column;
     height: 100vh;
     padding: 0px 25px;
+    margin-bottom: 30px;
 }
 .learn-text{
     display: flex;
@@ -21,9 +22,8 @@
 .learn-paragraph{
     letter-spacing: 1px;
     color: #696984;
-    padding: 0 240px;
     font-family: Sora;
-    font-size: 24px;
+    font-style: 24px;
     font-weight: 400;
     margin-bottom: 10px;
 }
@@ -31,7 +31,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 0px;
+    gap:40px;
+    padding: 0 50px;
     
 }
 
@@ -40,17 +41,26 @@
 .learn-container{
     display: flex;
     flex-direction: column;
-    height: 170vh;
+    height: fit-content;
     padding: 0px 25px;
 }
 .learn-title{
     font-size: 36px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 .learn-paragraph{
-    padding: 0 70px;
-    font-size: 20px;
+    padding: 0 45px;
+    font-size: 18px;
     margin-bottom: 40px;
+}
+.learn-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 0 50px;
+    margin-bottom: -230px;
 }
 }
 
@@ -71,4 +81,12 @@
     font-size: 14px;
     margin-bottom: 10px;
 }
+/* .learn-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:40px;
+    padding: 0 50px;
+ 
+} */
 }
